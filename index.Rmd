@@ -1,13 +1,11 @@
 ---
 title: "Comunicando os resultados de projetos em Ciência de Dados: Conhecendo o R Markdown"
-subtitle: "<center><img src= 'img/rmarkdown_wizards.png' style='float:left;height:300px;'></br></center> <center><b>Ilustração por Allison Horst - Twitter: <a href='https://twitter.com/allison_horst/'> @allison_horst</a> </b></center>"
+subtitle: "<center><img src= 'img/rmarkdown_wizards.png' style='float:left;height:200px;'></br></center> <center><b>Ilustração por Allison Horst - Twitter: <a href='https://twitter.com/allison_horst/'> @allison_horst</a> </b></center>"
 author: "Beatriz Milz"
 date: "2º semestre/2021 <br> Atualizado em `r format(Sys.Date(), format='%d/%m/%Y')`"
 encoding: "UTF-8"
 output:
   xaringan::moon_reader:
-    lib_dir: libs
-    chakra: libs/remark-latest.min.js
     css: xaringan-themer.css
     nature:
       slideNumberFormat: "<a href='#sumario'>Temas de hoje</a> - <a href='https://beatrizmilz.com/talk/'><i class='fas fa-external-link-alt'></i> Outras apresentações</a> - %current%/%total%"      
